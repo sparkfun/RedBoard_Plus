@@ -29808,7 +29808,7 @@ T.Igoe, G.Martino, D.Mellis</text>
 <text x="355.854" y="11.176" size="2.54" layer="94" font="vector">Jim Lindblom, N. Seidle</text>
 <text x="421.64" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="225.044" y="245.872" size="1.778" layer="97" font="vector">VIN Range: 7-15V</text>
-<text x="284.48" y="160.02" size="1.778" layer="97" font="vector">3.3V
+<text x="284.48" y="162.56" size="1.778" layer="97" font="vector">3.3V
 600mA Out</text>
 <text x="229.616" y="157.48" size="2.54" layer="97" font="vector">Board I/O Voltage</text>
 <text x="220.98" y="147.32" size="1.778" layer="97" font="vector">Slide the switch to change the I/O Voltage.
@@ -29944,7 +29944,7 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <instance part="JP5" gate="G$1" x="426.72" y="27.94" smashed="yes"/>
 <instance part="JP6" gate="G$1" x="429.26" y="25.4" smashed="yes"/>
 <instance part="JP8" gate="G$1" x="424.18" y="20.32" smashed="yes"/>
-<instance part="JP9" gate="G$1" x="429.26" y="20.32" smashed="yes"/>
+<instance part="JP9" gate="G$1" x="426.72" y="20.32" smashed="yes"/>
 <instance part="U$16" gate="G$1" x="317.5" y="10.16" smashed="yes"/>
 <instance part="C12" gate="G$1" x="63.5" y="17.78" smashed="yes" rot="MR0">
 <attribute name="NAME" x="63.246" y="20.193" size="1.778" layer="95" font="vector" rot="MR0"/>
@@ -30062,7 +30062,6 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 </instance>
 <instance part="U3" gate="G$1" x="292.1" y="177.8" smashed="yes">
 <attribute name="NAME" x="284.48" y="186.944" size="1.778" layer="95"/>
-<attribute name="VALUE" x="284.48" y="166.37" size="1.778" layer="96"/>
 </instance>
 <instance part="C16" gate="G$1" x="304.8" y="175.26" smashed="yes">
 <attribute name="NAME" x="306.324" y="178.181" size="1.778" layer="95"/>
