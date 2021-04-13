@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -36595,6 +36595,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
 <part name="U$78" library="redboard_logo" deviceset="REDBOARD_LOGO" device=""/>
 <part name="U$1" library="redboard_logo" deviceset="REDBOARD_LOGO" device=""/>
+<part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
+<part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 </parts>
 <sheets>
 <sheet>
@@ -36606,20 +36608,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="335.534" y="5.842" size="1.778" layer="97" font="vector">Based on Arduino by: M.Banzi, D.Cuartielles, 
 T.Igoe, G.Martino, D.Mellis</text>
 <text x="355.854" y="11.176" size="2.54" layer="94" font="vector">Jim Lindblom, N. Seidle</text>
-<text x="421.64" y="7.62" size="2.54" layer="94" font="vector">X04</text>
+<text x="421.64" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="225.044" y="245.872" size="1.778" layer="97" font="vector">VIN Range: 7-15V</text>
 <text x="284.48" y="160.02" size="1.778" layer="97" font="vector">3.3V
 600mA Out</text>
-<text x="229.616" y="157.48" size="2.54" layer="97">Board I/O Voltage</text>
+<text x="229.616" y="157.48" size="2.54" layer="97" font="vector">Board I/O Voltage</text>
 <text x="220.98" y="147.32" size="1.778" layer="97" font="vector">Slide the switch to change the I/O Voltage.
 Applying tape over switch is recommended
 to prevent accidental change.</text>
-<text x="397.51" y="133.096" size="2.54" layer="97">Qwiic</text>
-<text x="370.078" y="191.516" size="2.54" layer="97" align="center">Qwiic 3.3V Conversion</text>
+<text x="370.078" y="199.136" size="2.54" layer="97" font="vector" align="center">Qwiic 3.3V Conversion</text>
 <wire x1="165.1" y1="81.28" x2="215.9" y2="81.28" width="0.2032" layer="97" style="longdash"/>
 <wire x1="215.9" y1="81.28" x2="431.8" y2="81.28" width="0.2032" layer="97" style="longdash"/>
 <wire x1="165.1" y1="81.28" x2="165.1" y2="0" width="0.2032" layer="97" style="longdash"/>
-<text x="330.2" y="121.92" size="2.54" layer="97">Note: Cut QW1 and QW2 to disconnect 
+<text x="330.2" y="116.84" size="2.54" layer="97" font="vector">Note: Cut QW1 and QW2 to disconnect 
 Qwiic and allow A4/A5 as analog inputs.</text>
 <text x="45.72" y="50.8" size="1.778" layer="97" font="vector">This is the penny-in-the-fuse jumper.
 Close only if you know what you're doing.</text>
@@ -36707,8 +36708,8 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <attribute name="VALUE" x="246.38" y="218.694" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="Q1" gate="G$1" x="259.08" y="200.66" smashed="yes">
-<attribute name="NAME" x="264.16" y="200.66" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="264.16" y="198.12" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="264.16" y="203.2" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="264.16" y="200.66" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="U$8" gate="G$1" x="264.16" y="193.04" smashed="yes">
 <attribute name="VALUE" x="264.16" y="195.834" size="1.778" layer="96" align="bottom-center"/>
@@ -36849,17 +36850,17 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <instance part="J3" gate="G$1" x="236.22" y="233.68" smashed="yes">
 <attribute name="PROD_ID" x="236.22" y="233.68" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="Q2" gate="NMOS" x="363.22" y="165.1" smashed="yes" rot="MR270">
-<attribute name="NAME" x="364.744" y="168.148" size="1.778" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="369.316" y="159.512" size="1.778" layer="96" font="vector" rot="MR0"/>
+<instance part="Q2" gate="NMOS" x="363.22" y="172.72" smashed="yes" rot="MR270">
+<attribute name="NAME" x="364.744" y="175.768" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="369.316" y="167.132" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
-<instance part="R11" gate="G$1" x="370.84" y="170.18" smashed="yes" rot="MR90">
-<attribute name="NAME" x="372.364" y="170.18" size="1.778" layer="95" font="vector" rot="MR90" align="bottom-center"/>
-<attribute name="VALUE" x="369.316" y="170.18" size="1.778" layer="96" font="vector" rot="MR90" align="top-center"/>
+<instance part="R11" gate="G$1" x="370.84" y="177.8" smashed="yes" rot="MR90">
+<attribute name="NAME" x="372.364" y="177.8" size="1.778" layer="95" font="vector" rot="MR90" align="bottom-center"/>
+<attribute name="VALUE" x="369.316" y="177.8" size="1.778" layer="96" font="vector" rot="MR90" align="top-center"/>
 </instance>
-<instance part="R13" gate="G$1" x="355.6" y="170.18" smashed="yes" rot="MR90">
-<attribute name="NAME" x="357.124" y="170.18" size="1.778" layer="95" font="vector" rot="MR90" align="bottom-center"/>
-<attribute name="VALUE" x="354.076" y="170.18" size="1.778" layer="96" font="vector" rot="MR90" align="top-center"/>
+<instance part="R13" gate="G$1" x="355.6" y="177.8" smashed="yes" rot="MR90">
+<attribute name="NAME" x="357.124" y="177.8" size="1.778" layer="95" font="vector" rot="MR90" align="bottom-center"/>
+<attribute name="VALUE" x="354.076" y="177.8" size="1.778" layer="96" font="vector" rot="MR90" align="top-center"/>
 </instance>
 <instance part="GND28" gate="1" x="304.8" y="167.64" smashed="yes">
 <attribute name="VALUE" x="302.26" y="165.1" size="1.778" layer="96"/>
@@ -36945,18 +36946,18 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <instance part="SUPPLY20" gate="G$1" x="254" y="182.88" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="254" y="185.674" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY6" gate="G$1" x="391.16" y="149.86" smashed="yes">
-<attribute name="VALUE" x="391.16" y="152.654" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY6" gate="G$1" x="408.94" y="149.86" smashed="yes">
+<attribute name="VALUE" x="408.94" y="152.654" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="J4" gate="G$1" x="401.32" y="142.24" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="406.4" y="136.906" size="1.778" layer="96" font="vector" rot="MR0" align="top-left"/>
-<attribute name="NAME" x="406.4" y="150.114" size="1.778" layer="95" font="vector" rot="MR0"/>
+<instance part="J4" gate="G$1" x="419.1" y="142.24" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="424.18" y="136.906" size="1.778" layer="96" font="vector" rot="MR0" align="top-left"/>
+<attribute name="NAME" x="424.18" y="150.114" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
-<instance part="GND2" gate="1" x="391.16" y="134.62" smashed="yes">
-<attribute name="VALUE" x="388.62" y="132.08" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="408.94" y="134.62" smashed="yes">
+<attribute name="VALUE" x="406.4" y="132.08" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY10" gate="G$1" x="370.84" y="180.34" smashed="yes">
-<attribute name="VALUE" x="370.84" y="183.134" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY10" gate="G$1" x="370.84" y="187.96" smashed="yes">
+<attribute name="VALUE" x="370.84" y="190.754" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="Q3" gate="NMOS" x="363.22" y="137.16" smashed="yes" rot="MR270">
 <attribute name="NAME" x="364.998" y="140.208" size="1.778" layer="95" font="vector" rot="MR0"/>
@@ -36973,8 +36974,8 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <instance part="SUPPLY11" gate="G$1" x="370.84" y="152.4" smashed="yes">
 <attribute name="VALUE" x="370.84" y="155.194" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY12" gate="G$1" x="355.6" y="177.8" smashed="yes">
-<attribute name="VALUE" x="354.584" y="181.356" size="1.778" layer="96"/>
+<instance part="SUPPLY12" gate="G$1" x="355.6" y="185.42" smashed="yes">
+<attribute name="VALUE" x="354.584" y="188.976" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY21" gate="G$1" x="355.6" y="149.86" smashed="yes">
 <attribute name="VALUE" x="354.584" y="153.416" size="1.778" layer="96"/>
@@ -37005,11 +37006,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 </instance>
 <instance part="QW2" gate="G$1" x="347.98" y="134.62" smashed="yes">
 <attribute name="NAME" x="345.44" y="137.16" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="345.44" y="132.08" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="QW1" gate="G$1" x="347.98" y="162.56" smashed="yes">
-<attribute name="NAME" x="345.44" y="165.1" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="345.44" y="160.02" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="QW1" gate="G$1" x="347.98" y="170.18" smashed="yes">
+<attribute name="NAME" x="345.44" y="172.72" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="SUPPLY22" gate="G$1" x="119.38" y="63.5" smashed="yes">
 <attribute name="VALUE" x="119.38" y="66.294" size="1.778" layer="96" align="bottom-center"/>
@@ -37096,6 +37095,8 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 </instance>
 <instance part="U$78" gate="G$1" x="403.86" y="40.64" smashed="yes"/>
 <instance part="U$1" gate="G$1" x="375.92" y="40.64" smashed="yes"/>
+<instance part="FD1" gate="G$1" x="424.18" y="17.78" smashed="yes"/>
+<instance part="FD2" gate="G$1" x="426.72" y="17.78" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -37315,8 +37316,8 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <label x="124.46" y="149.86" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="342.9" y1="162.56" x2="340.36" y2="162.56" width="0.1524" layer="91"/>
-<label x="340.36" y="162.56" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<wire x1="342.9" y1="170.18" x2="340.36" y2="170.18" width="0.1524" layer="91"/>
+<label x="340.36" y="170.18" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="QW1" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -37644,8 +37645,8 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="1"/>
-<wire x1="393.7" y1="139.7" x2="391.16" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="391.16" y1="139.7" x2="391.16" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="411.48" y1="139.7" x2="408.94" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="408.94" y1="139.7" x2="408.94" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -37736,19 +37737,19 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="2"/>
-<wire x1="393.7" y1="142.24" x2="391.16" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="391.16" y1="142.24" x2="391.16" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="411.48" y1="142.24" x2="408.94" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="408.94" y1="142.24" x2="408.94" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="370.84" y1="175.26" x2="370.84" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="182.88" x2="370.84" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
 <pinref part="Q2" gate="NMOS" pin="G"/>
-<wire x1="370.84" y1="177.8" x2="370.84" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="177.8" x2="365.76" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="177.8" x2="370.84" y2="177.8" width="0.1524" layer="91"/>
-<junction x="370.84" y="177.8"/>
+<wire x1="370.84" y1="185.42" x2="370.84" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="185.42" x2="365.76" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="185.42" x2="370.84" y2="185.42" width="0.1524" layer="91"/>
+<junction x="370.84" y="185.42"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
@@ -37908,17 +37909,17 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <net name="LV_SCL" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="370.84" y1="162.56" x2="370.84" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="170.18" x2="370.84" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="Q2" gate="NMOS" pin="S"/>
-<wire x1="370.84" y1="162.56" x2="368.3" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="370.84" y1="162.56" x2="373.38" y2="162.56" width="0.1524" layer="91"/>
-<junction x="370.84" y="162.56"/>
-<label x="373.38" y="162.56" size="1.27" layer="95" xref="yes"/>
+<wire x1="370.84" y1="170.18" x2="368.3" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="170.18" x2="373.38" y2="170.18" width="0.1524" layer="91"/>
+<junction x="370.84" y="170.18"/>
+<label x="373.38" y="170.18" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="4"/>
-<wire x1="393.7" y1="147.32" x2="388.62" y2="147.32" width="0.1524" layer="91"/>
-<label x="388.62" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="411.48" y1="147.32" x2="406.4" y2="147.32" width="0.1524" layer="91"/>
+<label x="406.4" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="!DTR" class="0">
@@ -37987,7 +37988,7 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="355.6" y1="175.26" x2="355.6" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="182.88" x2="355.6" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY12" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
@@ -38054,8 +38055,8 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="3"/>
-<wire x1="393.7" y1="144.78" x2="388.62" y2="144.78" width="0.1524" layer="91"/>
-<label x="388.62" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="411.48" y1="144.78" x2="406.4" y2="144.78" width="0.1524" layer="91"/>
+<label x="406.4" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D-" class="0">
@@ -38109,11 +38110,11 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <net name="N$7" class="0">
 <segment>
 <pinref part="Q2" gate="NMOS" pin="D"/>
-<wire x1="358.14" y1="162.56" x2="355.6" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="170.18" x2="355.6" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="355.6" y1="165.1" x2="355.6" y2="162.56" width="0.1524" layer="91"/>
-<junction x="355.6" y="162.56"/>
-<wire x1="355.6" y1="162.56" x2="353.06" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="172.72" x2="355.6" y2="170.18" width="0.1524" layer="91"/>
+<junction x="355.6" y="170.18"/>
+<wire x1="355.6" y1="170.18" x2="353.06" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="QW1" gate="G$1" pin="2"/>
 </segment>
 </net>
