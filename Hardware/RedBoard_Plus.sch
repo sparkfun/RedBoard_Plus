@@ -29915,23 +29915,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="F2" library="SparkFun-Fuses" deviceset="PPTC" device="_6V2A" value="6V/2A"/>
 <part name="S2" library="SparkFun-Switches" deviceset="SWITCH-DPDT" device="-SMD-AYZ0202"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LEDGER" device=""/>
-<part name="JP12" library="SparkFun-Connectors" deviceset="M10" device="NO_SILK" value="M10NO_SILK">
+<part name="JP12" library="SparkFun-Connectors" deviceset="M10" device="NO_SILK" value="DNP">
 <attribute name="PROD_ID" value="CONN-11219"/>
 </part>
-<part name="JP15" library="SparkFun-Connectors" deviceset="M08" device="NO_SILK">
+<part name="JP15" library="SparkFun-Connectors" deviceset="M08" device="NO_SILK" value="DNP">
 <attribute name="PROD_ID" value="CONN-10204"/>
 </part>
 <part name="GND33" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
-<part name="JP18" library="SparkFun-Connectors" deviceset="M06" device="NO_SILK">
+<part name="JP18" library="SparkFun-Connectors" deviceset="M06" device="NO_SILK" value="DNP">
 <attribute name="PROD_ID" value="CONN-10203"/>
 </part>
 <part name="GND36" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="JP19" library="SparkFun-Connectors" deviceset="CONN_08" device="NO_SILK_FEMALE_PTH"/>
+<part name="JP19" library="SparkFun-Connectors" deviceset="CONN_08" device="NO_SILK_FEMALE_PTH" value="DNP"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK" value="DNP"/>
 <part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="U$1" library="redboard_logo" deviceset="REDBOARD_LOGO" device=""/>
@@ -30390,12 +30390,13 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <attribute name="REV" x="419.1" y="6.604" size="2.7432" layer="94" font="vector"/>
 </instance>
 <instance part="JP12" gate="G$1" x="210.82" y="200.66" smashed="yes" rot="MR0">
-<attribute name="NAME" x="209.804" y="192.786" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="PROD_ID" x="210.82" y="200.66" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="VALUE" x="213.36" y="198.12" size="1.778" layer="96" font="vector" rot="MR270"/>
+<attribute name="NAME" x="209.55" y="198.12" size="1.778" layer="95" font="vector" rot="MR270"/>
 </instance>
 <instance part="JP15" gate="G$1" x="167.64" y="238.76" smashed="yes" rot="MR0">
 <attribute name="PROD_ID" x="167.64" y="238.76" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="VALUE" x="172.72" y="226.06" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="172.72" y="226.06" size="1.778" layer="96" font="vector" rot="MR0"/>
 <attribute name="NAME" x="171.45" y="236.982" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
 <instance part="GND33" gate="1" x="160.02" y="226.06" smashed="yes">
@@ -30409,14 +30410,14 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 </instance>
 <instance part="JP18" gate="G$1" x="205.74" y="241.3" smashed="yes" rot="R180">
 <attribute name="PROD_ID" x="205.74" y="241.3" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="VALUE" x="210.82" y="251.46" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="211.836" y="242.316" size="1.778" layer="96" font="vector" rot="R270"/>
 <attribute name="NAME" x="209.804" y="236.982" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
 <instance part="GND36" gate="1" x="198.12" y="177.8" smashed="yes">
 <attribute name="VALUE" x="195.58" y="175.26" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="JP19" gate="G$1" x="205.74" y="220.98" smashed="yes" rot="R180">
-<attribute name="VALUE" x="210.82" y="233.426" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="VALUE" x="212.09" y="222.758" size="1.778" layer="96" font="vector" rot="R270"/>
 <attribute name="NAME" x="208.28" y="220.726" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
 <instance part="SUPPLY9" gate="G$1" x="154.94" y="251.46" smashed="yes">
@@ -30426,8 +30427,8 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <attribute name="VALUE" x="246.38" y="233.426" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="J1" gate="G$1" x="170.18" y="210.82" smashed="yes" rot="R180">
-<attribute name="VALUE" x="172.72" y="215.646" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="172.72" y="205.232" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="172.466" y="204.724" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="172.72" y="215.392" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="FD1" gate="G$1" x="424.18" y="17.78" smashed="yes"/>
 <instance part="FD2" gate="G$1" x="426.72" y="17.78" smashed="yes"/>
