@@ -236,6 +236,7 @@
 <wire x1="50.038" y1="13.335" x2="64.262" y2="13.335" width="0.254" layer="21"/>
 <text x="26.67" y="-39.37" size="1.778" layer="51" font="vector" ratio="15">Jim Lindblom
 N. Seidle</text>
+<text x="6.35" y="-41.91" size="1.778" layer="51" font="vector" ratio="15">Revised By: Priyanka Makin</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -15977,7 +15978,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="J3" pad="GND"/>
 <via x="35.56" y="22.479" extent="1-16" drill="0.381"/>
 <via x="34.29" y="25.146" extent="1-16" drill="0.381"/>
-<wire x1="1.27" y1="35.56" x2="1.397" y2="35.56" width="0.254" layer="1"/>
 <via x="1.905" y="39.243" extent="1-16" drill="0.381"/>
 <wire x1="1.905" y1="39.243" x2="2.794" y2="38.354" width="0.3048" layer="1"/>
 <wire x1="2.794" y1="37.084" x2="1.27" y2="35.56" width="0.3048" layer="1"/>
@@ -15992,7 +15992,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="C7" pad="2"/>
 <contactref element="Y2" pad="2"/>
 <contactref element="Y2" pad="4"/>
-<wire x1="20.232" y1="39.116" x2="20.408" y2="39.116" width="0.3048" layer="1"/>
 <wire x1="18.708" y1="40.64" x2="18.708" y2="40.093" width="0.254" layer="1"/>
 <wire x1="18.923" y1="39.878" x2="20.193" y2="39.878" width="0.254" layer="1"/>
 <wire x1="20.193" y1="39.878" x2="20.408" y2="39.663" width="0.254" layer="1"/>
@@ -16643,6 +16642,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <approved hash="8,16,811e3d9d4469824c"/>
 <approved hash="19,16,5cbe66f9d91b4d99"/>
 <approved hash="19,16,21002e78f91a70a7"/>
+<approved hash="23,16,7c3683ca80877f7b"/>
 </errors>
 </board>
 </drawing>

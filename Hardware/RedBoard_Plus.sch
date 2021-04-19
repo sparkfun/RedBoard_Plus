@@ -29978,6 +29978,7 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <wire x1="215.9" y1="279.4" x2="215.9" y2="81.28" width="0.2032" layer="97" style="longdash"/>
 <text x="183.642" y="264.16" size="2.54" layer="97" font="vector" align="center">PTH Connections</text>
 <text x="132.842" y="264.16" size="2.54" layer="97" font="vector" align="center">SMD Headers</text>
+<text x="375.92" y="5.842" size="1.778" layer="94" font="vector">Revised By: Priyanka Makin</text>
 </plain>
 <instances>
 <instance part="GND1" gate="1" x="40.64" y="149.86" smashed="yes">
