@@ -3,7 +3,7 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -15086,6 +15086,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="JP7" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="39.116" y="43.561" smashed="yes"/>
 <element name="J2" library="SparkFun-Connectors" package="2X3_SMT_POSTS" value="ISP" x="64.77" y="30.48" smashed="yes" rot="R270">
 <attribute name="NAME" x="58.42" y="30.48" size="0.6096" layer="25" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-11415" x="64.77" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="59.69" y="30.48" size="0.6096" layer="27" ratio="15" rot="R270"/>
 </element>
 <element name="C6" library="SparkFun-Capacitors" package="EIA3216" value="10uF" x="20.32" y="24.892" smashed="yes">
