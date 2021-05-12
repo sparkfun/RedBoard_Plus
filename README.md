@@ -1,12 +1,10 @@
-SparkFun RedBoard
+SparkFun RedBoard Plus
 ============================
 
-[![SparkFun RedBoard](https://cdn.sparkfun.com//assets/parts/1/1/7/2/2/13975-01.jpg)  
-*SparkFun RedBoard (DEV-13975)*](https://www.sparkfun.com/products/13975)
+[![SparkFun RedBoard Plus]()](https://www.sparkfun.com/products/18158)
 
-The RedBoard combines the simplicity of the UNO's Optiboot bootloader (which is used in the Pro series), the stability of the FTDI (which we all missed after the Duemilanove was discontinued) and the R3 shield compatibility of the latest Arduino UNO R3.
+[*SparkFun RedBoard Plus (DEV-18158)*](https://www.sparkfun.com/products/18158)
 
-The RedBoard can be programmed over a USB Mini-B cable using the Arduino IDE: Just plug in the board, select "Arduino UNO" from the board menu and you're ready to upload code.
 
 Repository Contents
 -------------------
@@ -16,10 +14,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/redboard-hookup-guide)** - Basic hookup guide for the Redboard.
-* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
-* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
-
+* **Hookup Guide** - Basic hookup guide for the RedBoard Plus.
 
 License Information
 -------------------
@@ -28,7 +23,7 @@ This product is _**open source**_!
 
 Please review the LICENSE.md file for license information. 
 
-If you have any questions or concerns on licensing, please contact techsupport@sparkfun.com.
+If you have any questions or concerns on licensing, please contact technical support on our [SparkFun forums](https://forum.sparkfun.com/viewforum.php?f=152).
 
 Distributed as-is; no warranty is given.
 
