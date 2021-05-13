@@ -33269,7 +33269,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="275.082" y="254" size="2.54" layer="97" font="vector" align="center">Power Supply</text>
 <text x="91.186" y="229.362" size="2.54" layer="97" font="vector" align="center">ATmega328</text>
 <text x="71.374" y="65.786" size="2.54" layer="97" font="vector" align="center">USB-to-Serial Converter</text>
-<text x="335.534" y="5.842" size="1.778" layer="97" font="vector">Based on Arduino by: M.Banzi, D.Cuartielles, 
+<text x="335.534" y="5.842" size="1.778" layer="94" font="vector">Based on Arduino by: M.Banzi, D.Cuartielles, 
 T.Igoe, G.Martino, D.Mellis</text>
 <text x="355.854" y="11.176" size="2.54" layer="94" font="vector">Jim Lindblom, N. Seidle</text>
 <text x="421.64" y="7.62" size="2.54" layer="94" font="vector">v10</text>
