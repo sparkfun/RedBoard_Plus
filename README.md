@@ -14,7 +14,7 @@ Repository Contents
 
 Documentation
 --------------
-* **Hookup Guide** - Basic hookup guide for the RedBoard Plus.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/1758)** - Basic hookup guide for the RedBoard Plus.
 
 License Information
 -------------------
