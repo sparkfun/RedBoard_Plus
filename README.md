@@ -1,7 +1,7 @@
 SparkFun RedBoard Plus
 ============================
 
-[![SparkFun RedBoard Plus]()](https://www.sparkfun.com/products/18158)
+[![SparkFun RedBoard Plus](https://cdn.sparkfun.com/assets/parts/1/7/4/8/7/18158-SparkFun_RedBoard_Plus-01.jpg)](https://www.sparkfun.com/products/18158)
 
 [*SparkFun RedBoard Plus (DEV-18158)*](https://www.sparkfun.com/products/18158)
 
