@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -231,6 +231,8 @@ T.Igoe, G.Martino, D.Mellis</text>
 <dimension x1="22.86" y1="1.27" x2="0" y2="1.27" x3="11.43" y3="-7.62" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="45.72" y1="57.15" x2="0" y2="57.15" x3="22.86" y3="-12.7" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="50.8" y1="1.27" x2="0" y2="1.27" x3="25.4" y3="-16.51" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="66.04" y2="0" x3="33.02" y3="-21.59" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="68.58" y2="0" x3="34.29" y3="-25.4" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
